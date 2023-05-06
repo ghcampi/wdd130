@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
 :root{
     --primary-color: #A3B18A;
     --secondary-color: #588157;
@@ -18,7 +19,7 @@
 body {
     font-family:var(--paragraph-font);
     max-width: 960px;
-    padding: 20px;
+    padding: 50px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -29,8 +30,7 @@ p {
 }
 nav {
     background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display:flex;
+    display: flex;
 }
 
 nav a {
@@ -40,10 +40,46 @@ nav a {
     padding: 1rem;
 }
 
-nav a:link, nav a:visited{
+nav a:link, nav a:visited {
     color: var(--nav-link-color);
+}
+
+.icon {
+    width: 170px;
 }
 
 nav a:hover {
     color: var(--nav-hover-background-color);
 }
+
+.hero {
+    position: relative;
+}
+.hero h1 {
+    position:absolute;
+    top: 50px;
+    left: 20px;
+    text-align: center;
+    background-color: rgba(2, 2, 32, 0.6);
+    width: 100%;
+}
+
+
+article {
+    position: absolute;
+    float:left;
+    top:150px;
+    left: 20px;
+    background-color: rgba(171, 240, 171, 0.7);
+}
+article img {
+    width: 210px;
+    height: auto;
+    float: right;
+    margin: 10px;
+    
+}
+article p {
+text-align: justify;
+
+} 
