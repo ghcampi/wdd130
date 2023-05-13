@@ -14,11 +14,14 @@
   --nav-hover-link-color: #3a5a40;
   --nav-hover-background-color: #a3b18a;
 }
+
 body {
   font-family: var(--paragraph-font);
-  max-width: 960px;
   padding: 50px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
+
 h1,
 h2,
 h3,
@@ -28,24 +31,21 @@ h6 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
-p {
+
+article p {
   padding: 25px;
-}
-nav {
-  background-color: var(--nav-background-color);
-  display: flex;
 }
 
 nav a {
   display: block;
-  color: var(--nav-link-color);
+  color: #fff;
   text-decoration: none;
   padding: 1rem;
 }
 
 nav a:link,
 nav a:visited {
-  color: var(--nav-link-color);
+  color: #fff;
 }
 
 .icon {
@@ -85,4 +85,99 @@ article img {
 
 article p {
   text-align: justify;
+}
+
+.history p{
+  text-align: justify;
+  margin: 0;
+}
+
+.history{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: auto;
+  margin: 0 auto;
+}
+
+.history img{
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+header {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  border-bottom: 1px; 
+  max-width: 1000px;
+  background: steelblue;
+}
+
+.logo-principal{
+	margin: 0 0.25rem 0 1rem;
+}
+
+h1 {
+	font-size: 3rem;
+	font-family: Arial, sans-serif;
+}
+
+nav {
+	text-align: center;
+}
+
+.navigation {
+	display: flex;
+  justify-content: flex-end;
+}
+
+/* .navigation a{
+  tet
+} */
+
+h2 {
+  text-align: center;
+}
+
+.adventure{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.adventure div img{
+  width: 150px;
+}
+
+.continer {
+  display: flex;
+  justify-content: space-between ;
+  border: 5px;
+  width: 150px;
+  height: 150px;
+  margin: 30 px;
+  border: 2px;
+ 
+  }
+
+.sociallinks{
+  display:flex;
+  justify-content:flex-end;
+}
+
+.sociallinks a img{
+  width: 50px; 
+}
+
+footer{
+  display: grid;
+  grid-template-columns: 70% 25%;
+  align-items: center;
+  background: steelblue;
+  margin-top: 3rem;
+}
+
+footer p{
+  color: #fff;
+  padding-left: 2rem;
 }
