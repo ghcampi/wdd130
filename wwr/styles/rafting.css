@@ -145,7 +145,7 @@ h2 {
   grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
-.adventure div img{
+.adventure figure img{
   width: 150px;
 }
 
