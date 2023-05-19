@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
+h1{
+    color: steelblue;
+    padding: 1rem;
+    margin-bottom: 0.3rem;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    padding: 0rem 1rem 2rem 1rem;
+    background-color: #f4f4f4;
+    border-radius: 0.4rem;
+    box-shadow: 6px 5px 16px -1px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 6px 5px 16px -1px rgba(0,0,0,0.29);
+    -moz-box-shadow: 6px 5px 16px -1px rgba(0,0,0,0.29);
+}
+
+.question-padding{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+label{
+    font-size: 20px;
+    padding-bottom: 0.4rem;
+}
+
+.question{
+    font-size: 20px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-family: 'Lato';
+}
+
+.btn-form{
+    font-size: 22px;
+    padding: 0.6rem;
+    margin-top: 2rem;
+    background-color: steelblue;
+    color: #fff;
+    border-radius: 0.5rem;
+    border: 0px none;
+}
+
+.btn-form:hover{
+    background-color: #f4f4f4;
+    color: #000;
+    -webkit-transition: background 0.2s ease-in-out;
+    -moz-transition: background 0.2s ease-in-out;
+    -ms-transition: background 0.2s ease-in-out;
+    -o-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    border: 1px solid #000;
+}

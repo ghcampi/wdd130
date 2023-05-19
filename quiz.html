@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HTML/CSS Quiz</title>
+    <link rel="stylesheet" href="./styles/quiz.css"/>
+      
+</head>
+
+  <body>
+    <h1> Basic HTML/CSS Quiz</h1>
+    
+    <form>
+        
+      <div class="question-padding">
+      <label for="q1">What is the principal title of one page?</label>
+      <input class="question" type="text" id="q1" name="q1" placeholder="Write your answer" required>
+    </div>
+
+    <div class="question-padding">
+      <label for="q2">How do you comment out a line of CSS code?</label>
+      <textarea class="question" id="q2" name="q2" placeholder="Short answer" required></textarea>
+    </div>
+
+    <div class="question-padding">
+      <label for="q3">Which is the correct way to writte a div tag</label>
+      <select class="question" id="q3" name="q3" required>
+        <option class="question" value="" selected disabled>Choose One...</option>
+        <option class="question" value="option1">&lt;div&gt;&lt;div/&gt;</option>
+        <option class="question" value="option2">&lt;div&gt;&lt;/div&gt;</option>
+        <option class="question" value="option3">&lt;div/&gt;&lt;div&gt;</option>
+      </select>
+    </div>
+
+    <div class="question-padding">
+      <label for="q4">How many tags for title exits?</label>
+      <input class="question" type="number" id="q4" name="q4" placeholder="Integer answer" required>
+      </div>
+
+      <input class="btn-form" type="submit" value="Submit Quiz">
+    </form>
+  </body>
+</html>
