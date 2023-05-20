@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap");
+
+:root {
+  --primary-color: #a3b18a;
+  --secondary-color: #588157;
+  --accent1-color: #3a5a40;
+  --accent2-color: #344e41;
+
+  --heading-font: "Open Sans", sans-serif;
+  --paragraph-font: "Open Sans", sans-serif;
+
+  --nav-background-color: #f9ffee;
+  --nav-link-color: #3a5a40;
+  --nav-hover-link-color: #3a5a40;
+  --nav-hover-background-color: #a3b18a;
+}
+
+body {
+  font-family: var(--paragraph-font);
+  padding: 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+article p {
+  padding: 25px;
+}
+
+nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link,
+nav a:visited {
+  color: #fff;
+}
+
+.icon {
+  width: 170px;
+}
+
+nav a:hover {
+  color: var(--nav-hover-background-color);
+}
+
+.contact {
+  position: relative;
+  display:flex;
+  justify-content: 98%;
+}
+.contact h1 {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  text-align: center;
+  background-color: rgba(2, 2, 32, 0.6);
+  width: 98%;
+}
+
+article {
+  position: absolute;
+  float: left;
+  top: 150px;
+  left: 20px;
+  background-color: rgba(171, 240, 171, 0.7);
+}
+
+.contact img {
+  width: 210px;
+  height: auto;
+  float: right;
+  margin: 10px;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  
+}
+
+/*article p {
+  text-align: justify;
+}*/
+
+/*.history p{
+  text-align: justify;
+  margin: 0;
+}*/
+
+
+header {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  border-bottom: 1px; 
+  max-width: 1000px;
+  background: steelblue;
+}
+
+.logo-principal{
+	margin: 0 0.25rem 0 1rem;
+}
+
+h1 {
+	font-size: 3rem;
+	font-family: Arial, sans-serif;
+}
+
+nav {
+	text-align: center;
+}
+
+.navigation {
+	display: flex;
+  justify-content: flex-end;
+}
+
+/* .navigation a{
+  tet
+} */
+
+h2 {
+  text-align: center;
+}
+
+.adventure{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.adventure figure img{
+  width: 150px;
+}
+
+.continer {
+  display: flex;
+  justify-content: space-between ;
+  border: 5px;
+  width: 150px;
+  height: 150px;
+  margin: 30px;
+  border: 2px;
+ 
+  }
+
+.sociallinks{
+  display:flex;
+  justify-content:flex-end;
+}
+
+.sociallinks a img{
+  width: 50px; 
+}
+
+footer{
+  display: grid;
+  grid-template-columns: 70% 25%;
+  align-items: center;
+  background: steelblue;
+  margin-top: 3rem;
+}
+
+footer p{
+  color: #fff;
+  padding-left: 2rem;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="BYU-Idaho WDD130 course Page, Rafting, Contact Us">
+    <meta name="author" content="Gabriel Hernan Campi">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./styles/rafting.css" />
+  </head>
+  <body>
+
+    <header class="hdr-contact">
+      <img class="logo-principal" src= "images/logo-p.png" alt="Logo"/>
+      <nav class="navigation">
+          <a href="./site-plan-rafting.html">Home Page</a>
+          <a href="about.html">About Us</a>
+          <a href="trips.html">Trips</a>
+          <a class="current" href="contact.html">Contact Us</a>
+      </nav>
+    </header>
+
+    <main>
+      <img class="image-hero-contact-us" src="./images/rafting-hero2.jpg" alt="people rafting in a furious river" />
+
+      <section class="display-section-grid">
+        <div>
+          <h1 class="h1-contact">Contact Us</h1>
+          <p class="p-contact">We're waiting for your contact</p>
+          <h3>Adress: Mitre 83 Ofi A, Bariloche</h3>
+          <h3>Phone number: 2945907940</h3>
+          <h3>Email: contact@barilocherafting.com</h3>
+        </div>
+        <div>
+          <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12019.567722329433!2d-71.32464915040005!3d-41.136885078680955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7b015b59ee15%3A0xf23d40cc67159cb3!2sRafting%20bariloche!5e0!3m2!1sen!2sar!4v1684545872699!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+
+      
+      
+      <section class="employee-section">
+        <h2 class="h2-contact">Our Team</h2>
+        <div class="contact">
+          <figure>
+            <img src="./images/instructor-rafting1.jpg" alt="instructor" />
+            <p>Maria - Instructor</p>
+          </figure>
+          <figure>
+            <img src="./images/instructor-rafting2.jpg" alt="instructor" />
+            <p> Jhon - Instructor</p>
+          </figure>
+          <figure>  
+            <img src="./images/manager-rafting.jpg" alt="manager" />
+            <p>Stephen - Manager</p>
+          </figure>
+        </div>
+      </section>
+
+    </main>
+
+    <h2 class="h2-contact">Contact Us</h2>
+    <form>
+      <div class="question-padding">
+        <label for="name">Name</label>
+        <input class="question" type="text" id="name" name="name" placeholder="Write your name" required>
+      </div>
+
+      <div class="question-padding">
+        <label for="email">Email</label>
+        <input class="question" type="text" id="email" name="email" placeholder="Write your email" required>
+      </div>
+
+      <div class="question-padding">
+        <label for="q3">Purpose of the message</label>
+        <select class="question" id="q3" name="q3" required>
+          <option class="question" value="" selected disabled>Choose One...</option>
+          <option class="question" value="option1">General Inquiry</option>
+          <option class="question" value="option2">Reservation Question</option>
+          <option class="question" value="option3">Website Suggestion</option>
+        </select>
+      </div>
+
+      <div class="question-padding">
+        <label for="message">Message</label>
+        <textarea class="question" id="message" name="message" placeholder="Write your message" required></textarea>
+      </div>
+
+      <div class="question-padding">
+        <div><input class="question" type="checkbox" id="newsletter" name="newsletter"><label class="padding-for-text"
+           for="newsletter">Please subscribe me to the monthly newsletter</label></div>
+      </div>
+
+        <input class="btn-form" type="submit" value="Submit Quiz">
+      </div>
+    </form>
+
+    <footer>
+      <p>© 2023 Bariloche Rafting | Gabriel Campi</p>
+      <nav class="sociallinks">
+        <a class="icon" href="https://facebook.com">
+          <img src="./images/facebook-icon.svg" alt="logo facebook" />
+        </a>
+        <a class="icon" href="https://twitter.com">
+          <img src="./images/twitter-icon.svg" alt="logo twitter" />
+        </a>
+        <a class="icon" href="https://instagram.com">
+          <img src="./images/instagram-icon.svg" alt="logo instagram" />
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>
