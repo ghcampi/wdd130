@@ -1,12 +1,90 @@
 <!DOCTYPE html>
-<html lang="en.us">
-<head>
+<html lang="en-US">
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <meta name="description" content="BYU-Idaho WDD130 course Page,Bariloche Rafting, Home Page">
+    <meta name="author" content="Gabriel Hernan Campi">
+    <title>Home Page - Bariloche Rafting</title>
+    <link rel="stylesheet" href="./styles/rafting.css">
+  </head>
+  <body>
+
+    <header class="hdr-contact">
+      <img class="logo-principal" src= "images/logo-p.png" alt="Logo">
+      <nav class="navigation">
+          <a href="index.html">Home Page</a>
+          <a href="about.html">About Us</a>
+          <a href="trips.html">Trips</a>
+          <a class="current" href="contact.html">Contact Us</a>
+      </nav>
+    </header>
+
+    <main>
+      <img class="image-hero-contact-us" src="./images/image-home-page.jpg" alt="">
+      <h1 class="h1-padding" >Bariloche Rafting</h1>
+          
+      <form class="form-space"> 
+        <div class="question-padding">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+        </div>
+        
+        <div class="question-padding">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <div>
+          <button class="btn-form space-btn" type="submit">Submit</button>
+        </div>  
+      </form>
+      
+      <section class="purpose-page">
+        <h2 class="Purpose-title">Purpose</h2>
+          <p class="purpose-p">
+            The purpose of Bariloche Rafting is to provide thrilling and safe adventures in a stunning natural landscape. We prioritize fun and safety, with a trained team and rigorous measures to ensure unforgettable experiences.
+          </p>
+
+        <a class="purpose-btn" href="trips.html">Visit the Trips page</a>
+      </section>
+
+      <section class="display-section-grid-2">
+        <div>
+          <img class="full-width-img" src="./images/equipo-basico-para-rafting.jpg" alt="Equipment for rafting">
+            <p>
+              Our company's purpose is to create unforgettable family moments and elevate the rafting experience to new heights with utmost safety. We are dedicated to designing thrilling adventures where every family member can fully enjoy. Join us to forge lasting memories, strengthen bonds, and explore the exhilarating magic of rafting.
+            </p>
+        </div>
+        <div>
+          <img class="full-width-img" src="./images/manso-river.jpeg" alt="manso river ">
+          <p>
+            Allowing you to immerse yourself in the scenic beauty of the rivers 
+            and surrounding mountains. Join us and embrace the thrill of rafting in a secure
+            and spectacular environment at Bariloche Rafting!
+          </p>
+        </div>
+      </section>
+    </main>
+
+
+    <footer>
+      <p>© 2023 | Bariloche Rafting | Gabriel Campi</p>
+      
+      <nav class="sociallinks">
+        <a class="icon" href="./images/wireframe-home-page.png">Home Page Wireframe</a>
+
+        <a class="icon" href="https://facebook.com">
+          <img src="./images/facebook-icon.svg" alt="Facebook Logo">
+        </a>
+        <a class="icon" href="https://twitter.com">
+          <img src="./images/twitter-icon.svg" alt="Twitter Logo">
+        </a>
+        <a class="icon" href="https://instagram.com">
+          <img src="./images/instagram-icon.svg" alt="Instagram Logo">
+        </a>
+        
+      </nav>
+    </footer>
+  </body>
 </html>
