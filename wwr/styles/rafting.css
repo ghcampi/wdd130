@@ -253,7 +253,7 @@ footer p{
 .purpose-btn{
   font-size: 22px;
   padding: 1rem;
-  background-color: steelblue;
+  background-color:rgb(38, 68, 93) ;
   color: #fff;
   border-radius: 0.5rem;
   border: 0px none;
@@ -309,7 +309,7 @@ label{
   font-size: 22px;
   padding: 1rem;
   margin-top: 2rem;
-  background-color: steelblue;
+  background-color: rgb(38, 68, 93);
   color: #fff;
   border-radius: 0.5rem;
   border: 0px none;

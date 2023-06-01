@@ -118,9 +118,6 @@ nav {
   justify-content: flex-end;
 }
 
-/* .navigation a{
-  tet
-} */
 
 h2 {
   text-align: center;
@@ -159,7 +156,7 @@ footer{
   display: grid;
   grid-template-columns: 70% 25%;
   align-items: center;
-  background: steelblue;
+  background: rgb(55, 88, 116);
   margin-top: 3rem;
 }
 
